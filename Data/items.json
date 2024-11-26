@@ -3,38 +3,63 @@
     "wood":{
       "name": "wood",
       "type": "resource",
+      "x": 0,
+      "y": 0,
+      "category": "natural",
       "color": [139, 69, 19],
       "effect": "fuels",
       "usage":"crafting/fuel" 
     },
     "stone":{
+      "name": "Stone",
       "type": "resource",
+      "x": 33,
+      "y": 0,
+      "category": "natural",
       "color": [128, 128, 128],
       "effect": "",
       "usage": "crafting"
     }, 
     "obsidian": {
+      "name": "Obsidian",
       "type": "resource",
+      "x": 0,
+      "y": 66,
+      "category": "natural",
       "color": [72, 61, 139],
       "effect": "",
       "usage": "crafting"
     },
-    "herb":{
+    "sand":{
+      "name": "Sand",
       "type": "resource",
+      "category": "natural",
       "color": [33, 110, 255],
       "effect": "",
+      "usage": "crafting/smelting"
+    },
+    "herb":{
+      "name": "Herb",
+      "type": "resource",
+      "category": "natural",
+      "color": [33, 110, 255],
+      "effect": "nourish",
       "usage": "consumable/crafting"
     }
   },
   "primitive":{
     "wood_planks":{
+      "name": "Wood Planks",
       "type": "resource",
+      "category": "primitive",
       "color": [207, 159, 87],
       "effect": "",
       "usage": "crafting"
     },
     "stick":{
+      "name": "Stick",
       "type": "resource",
+      "category": "primitive",
       "color": [110, 73, 33],
       "effect": "",
       "usage": "crafting"
@@ -42,26 +67,34 @@
   },
   "metal":{
     "iron": {
+      "name": "Iron",
       "type": "resource",
+      "category": "metal",
       "color": [184, 193, 207],
       "effect": "",
       "usage": "crafting"
     },
 
     "copper":{
+      "name": "Copper",
       "type": "resource",
+      "category": "metal",
       "color": [184, 115, 51],
       "effect": "",
       "usage": "crafting"
     },
     "gold": {
+      "name": "Gold",
       "type": "resource",
+      "category": "metal",
       "color": [255, 215, 0],
       "effect": "",
       "usage": "crafting"
     },  
     "titanium": {
+      "name": "Titanium",
       "type": "resource",
+      "category": "metal",
       "color": [169, 169, 169],
       "effect": "",
       "usage": "crafting"
@@ -69,33 +102,43 @@
   },
   "elemental":{
     "fire_shard":{
+      "name": "Fire Shard",
       "type": "resource",
+      "category": "elemental",
       "color": [255, 69, 0],
       "effect": "",
       "usage": "crafting/fuel/magic"
     },
     "ice_crystal":{
+      "name": "Ice Crystal",
       "type": "resource",
+      "category": "elemental",
       "color": [0, 191, 255],
       "effect": "",
       "usage": "crafting/fuel/magic"
     },
     "mystic_orb": {
+      "name": "Mystic Orb",
       "type": "resource",
+      "category": "elemental",
       "color": [138, 43, 226],
       "effect": "",
-      "usage": "magic"
+      "usage": "crafting/magic"
     }
   },
   "electrical":{
     "electric_core":{
+      "name": "Electric Core",
       "type": "resource",
+      "category": "electrical",
       "color": [255, 255, 0],
       "effect": "stun",
       "usage": "crafting"
     },
     "energy_cell": {
+      "name": "Energy Cell",
       "type": "resource",
+      "category": "electrical",
       "color": [50, 205, 50],
       "effect": "fuels",
       "usage": "fuel/crafting"
@@ -104,10 +147,30 @@
   },
   "medicine":{
     "adrenaline_shot": {
-        "type": "resource",
+        "name": "Adreneline Shot",
+      "type": "resource",
+      "category": "medicine",
         "color": [220, 20, 60],
         "effect": "speed boost",
         "usage": "consumable"
+    },
+    "bandages": {
+      "name": "Bandages",
+      "type": "resource",
+      "category": "medicine",
+      "color": [20, 220, 60],
+      "effect": "heal",
+      "usage": "consumable"
+    }
+  },
+  "food":{
+    "apple": {
+      "name": "apple",
+      "type": "resource",
+      "category": "food",
+      "color": [220, 20, 60],
+      "effect": "nourish",
+      "usage": "consumable"
     }
   }
 }

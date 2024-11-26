@@ -1,6 +1,6 @@
 import pygame
 from os.path import join
-from dropped_items import DroppedItem
+from dropped_items import Dropped_Item
 from groups import *
 from surfaces import create_surface_png
 import json
@@ -29,7 +29,8 @@ def drop_item(player, item):
           'image_path': join("Assets", "items", item.category, item.name),
           'color': item.color
       }
-      DroppedItem(player.rect.center, item_data, (all_sprites, dropped_item_sprites))
+      Dropped_Item(player.rect.center, item_data, (all_sprites, dropped_item_sprites))
 
 def load_sprites(folder, png):
-    sprite_sheet_image = create_surface_png(folder, png)
+    sprite_sheets = [create_surface_png(folder, png)]
+    return sprite_sheets

@@ -1,2 +1,2 @@
 # This is The Game
-## Game Deffinition
+## Game Description

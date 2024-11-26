@@ -2,7 +2,7 @@ import pygame
 from os.path import join
 from player import Player
 from enemy import Enemy
-from item import Item
+from dropped_items import Dropped_Item
 from projectile import Projectile
 from collision import collisions
 from text import display
@@ -13,7 +13,7 @@ import json
 
 # Load the item data once at the start
 with open(join('Data','items.json'), 'r') as file: 
-    item_data = json.load(file)
+    item_json = json.load(file)
 
 # Game Set up
 pygame.init()
@@ -44,11 +44,10 @@ while running:
       #Enemy(pos, player ,(all_sprites, enemy_sprites)) 
     if event.type == item_event and len(item_sprites)== 0:
       pos = (randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT))
-      category = choice(list(item_data.keys()))
-      item_name = choice(list(item_data[category]))
-      item_info = item_data[category][item_name]
-      print(category, item_name)
-      Item(pos,category, item_name, item_info, (all_sprites,item_sprites))
+      category = choice(list(item_json.keys()))
+      item_name = choice(list(item_json[category]))
+      item_data = item_json[category][item_name]
+      Dropped_Item(pos, item_data, (all_sprites,item_sprites))
     
   # Updated
   all_sprites.update(dt)
