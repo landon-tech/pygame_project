@@ -1,0 +1,62 @@
+{
+  "primitive":{
+    "stone_knife" : { 
+      "name":"Stone Knife",
+      "type": "weapon", 
+      "description": "A small sharp hand held weapon",
+      "durrability":  15,
+      "damage": 5,
+      "effect": "melee"
+    },
+    "wooden_spear": {
+      "name":"Wooden Spear",
+      "type": "weapon", 
+      "description": "A hand held weapon that can be thrown or used for distant combat",
+      "durrability":  20,
+      "damage": 5,
+      "effect": "melle/ranged"
+    },
+    "primitive_bow": {
+      "name":"Primitive Bow",
+      "type": "weapon", 
+      "description": "A medium range weapon, requires arrows",
+      "durrability":  20,
+      "damage": 0,
+      "effect": "ranged",
+      "requirements": ["workbench"]
+    } 
+  },
+  "advanced": {
+    "iron_sword":{
+      "name": "Iron Sword",
+      "type": "weapon",
+      "description": "A sharp weapon helpful in combat",
+      "durrability":  20,
+      "damage": 20,
+      "effect": "melee",
+      "requirements": ["workbench"]
+    }
+  },
+  "electrical":{
+    "shock_rifle": {
+      "name": "Shock Rifle",
+      "type": "weapon",
+      "description": "An energy based weapon used to slow down enemies, requires charged energy cores to fire",
+      "durrability":  20,
+      "damage": 1,
+      "effect": "stun",
+      "requirements": ["electronics_station"]
+    }
+  },
+  "elemental": {
+    "fire_sword": {
+      "name": "Fire Sword",
+      "type": "weapon",
+      "description": "A blazing sword that can burn enemies",
+      "durrability":  20,
+      "damage": 20,
+      "effect": "burn/melee",
+      "requirements": ["workbench"]
+    }
+  }
+}

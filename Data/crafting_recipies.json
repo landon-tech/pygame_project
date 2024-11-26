@@ -1,0 +1,38 @@
+{
+  "stone_knife": {
+    "category": "primitive",
+    "ingredients": {
+      "stone": 1,
+      "wood": 1
+    },
+    "output": {
+      "item": "stone_knife",
+      "amount": 1
+    },
+    "machine_required": "workbench"
+  },
+  "fire_sword": {
+    "category": "elemental",
+    "ingredients": {
+      "iron": 2,
+      "fire_shard": 1
+    },
+    "output": {
+      "item": "fire_sword",
+      "amount": 1
+    },
+    "machine_required": "forge"
+  },
+  "energy_cell": {
+    "category": "electrical",
+    "ingredients": {
+      "copper": 2,
+      "gold": 1
+    },
+    "output": {
+      "item": "energy_cell",
+      "amount": 1
+    },
+    "machine_required": "electronics_station"
+  }
+}
