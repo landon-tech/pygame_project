@@ -7,6 +7,7 @@ from surfaces import create_surface_png
 class Item:
   def __init__(self, item_data, amount=1) -> None:
     # Data
+    print(item_data)
     self.name = item_data["name"]
     self.category =  item_data["category"]
     self.color = self.data["color"]

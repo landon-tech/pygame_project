@@ -6,6 +6,7 @@ from dropped_items import Dropped_Item
 from projectile import Projectile
 from collision import collisions
 from text import display
+from utilility import load_spritesheets
 from random import randint, choice
 from settings import *
 from groups import *
@@ -18,6 +19,8 @@ with open(join('Data','items.json'), 'r') as file:
 # Game Set up
 pygame.init()
 
+sprite_sheets = load_spritesheets(ITEM_SPRITE_SHEET_FOLDER)
+print(sprite_sheets)
 pygame.display.set_caption("Test")
 clock = pygame.time.Clock()
 running = True
@@ -26,10 +29,10 @@ player = Player( (randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)),all_sprit
 
 # Custom Events
 enemy_event = pygame.event.custom_type()
-item_event = pygame.event.custom_type()
+dropped_item_event = pygame.event.custom_type()
 # Timers
 pygame.time.set_timer(enemy_event, 2500)
-pygame.time.set_timer(item_event, 5000)
+pygame.time.set_timer(dropped_item_event, 5000)
 
 while running:
   dt = clock.tick()/1000
@@ -42,12 +45,13 @@ while running:
     if event.type == enemy_event:
       pos = choice([(randint(0, WINDOW_WIDTH), choice([0, WINDOW_HEIGHT])),(choice([0, WINDOW_WIDTH]), randint(0, WINDOW_HEIGHT))])
       #Enemy(pos, player ,(all_sprites, enemy_sprites)) 
-    if event.type == item_event and len(item_sprites)== 0:
+    if event.type == dropped_item_event and len(dropped_item_sprites)== 0:
       pos = (randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT))
       category = choice(list(item_json.keys()))
       item_name = choice(list(item_json[category]))
       item_data = item_json[category][item_name]
-      Dropped_Item(pos, item_data, (all_sprites,item_sprites))
+      print(category, item_name)
+      Dropped_Item(pos, item_data, sprite_sheets, (all_sprites, dropped_item_sprites))
     
   # Updated
   all_sprites.update(dt)

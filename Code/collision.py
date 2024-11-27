@@ -3,9 +3,9 @@ from groups import *
 
 def collisions(player):
   # Test item collsion with player to tell it to add it to sprite
-  for item in item_sprites:
+  for item in dropped_item_sprites:
     if pygame.sprite.collide_mask(item, player):
-      item_name = item.name
+      item_name = item.item["name"]
       if item_name in player.inventory:
          player.inventory[item_name] += 1
       else:
