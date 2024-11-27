@@ -26,15 +26,6 @@
       "color": [33, 110, 255],
       "effect": "",
       "usage": "crafting/smelting"
-    },
-    "herb":{
-      "name": "Herb",
-      "type": "resource",
-      "frame_index": 4,
-      "category": "natural",
-      "color": [33, 110, 255],
-      "effect": "nourish",
-      "usage": "consumable/crafting"
     }
   },
   "primitive":{
@@ -175,6 +166,15 @@
     }
   },
   "food":{
+    "apple": {
+      "name": "apple",
+      "type": "resource",
+      "frame_index": 0,
+      "category": "food",
+      "color": [220, 20, 60],
+      "effect": "nourish",
+      "usage": "consumable"
+    },
     "bread": {
       "name": "bread",
       "type": "resource",
@@ -184,14 +184,113 @@
       "effect": "nourish",
       "usage": "consumable"
     },
-    "raw_meat":{
-      "name": "raw meat",
+    "pepper":{
+      "name": "pepper",
       "type": "resource",
-      "frame_index": 1,
+      "frame_index": 2,
       "category": "food",
       "color": [220, 20, 60],
       "effect": "nourish",
       "usage": "consumable"
+    },
+    "pizza":{
+      "name": "pizza",
+      "type": "resource",
+      "frame_index": 3,
+      "category": "food",
+      "color": [220, 20, 60],
+      "effect": "nourish",
+      "usage": "consumable"
+    },
+    "egg":{
+      "name": "egg",
+      "type": "resource",
+      "frame_index": 4,
+      "category": "food",
+      "color": [220, 20, 60],
+      "effect": "nourish",
+      "usage": "consumable"
+    },
+    "fried_egg":{
+      "name": "fried egg",
+      "type": "resource",
+      "frame_index": 5,
+      "category": "food",
+      "color": [220, 20, 60],
+      "effect": "nourish",
+      "usage": "consumable"
+    },
+    "raw_meat":{
+      "name": "raw meat",
+      "type": "resource",
+      "frame_index": 6,
+      "category": "food",
+      "color": [220, 20, 60],
+      "effect": "nourish",
+      "usage": "consumable"
+    },
+    "cooked_meat":{
+      "name": "cooked meat",
+      "type": "resource",
+      "frame_index": 7,
+      "category": "food",
+      "color": [220, 20, 60],
+      "effect": "nourish",
+      "usage": "consumable"
+    },
+    "carrot":{
+      "name": "carrot",
+      "type": "resource",
+      "frame_index": 10,
+      "category": "food",
+      "color": [33, 110, 255],
+      "effect": "nourish",
+      "usage": "consumable/crafting/farming"
+    },
+    "onion":{
+      "name": "onion",
+      "type": "resource",
+      "frame_index": 11,
+      "category": "food",
+      "color": [33, 110, 255],
+      "effect": "nourish",
+      "usage": "consumable/crafting/farming"
+    },
+    "mushroom":{
+      "name": "mushroom",
+      "type": "resource",
+      "frame_index": 12,
+      "category": "natural",
+      "color": [33, 110, 255],
+      "effect": "nourish",
+      "usage": "consumable/crafting/farming"
+    },
+    "potatoe":{
+      "name": "potatoe",
+      "type": "resource",
+      "frame_index": 13,
+      "category": "natural",
+      "color": [33, 110, 255],
+      "effect": "nourish",
+      "usage": "consumable/crafting/farming"
+    },
+    "wheat":{
+      "name": "wheat",
+      "type": "resource",
+      "frame_index": 14,
+      "category": "natural",
+      "color": [33, 110, 255],
+      "effect": "nourish",
+      "usage": "consumable/crafting/farming"
+    },
+    "flour":{
+      "name": "flour",
+      "type": "resource",
+      "frame_index": 15,
+      "category": "natural",
+      "color": [33, 110, 255],
+      "effect": "nourish",
+      "usage": "consumable/crafting/farming"
     }
   }
 }
