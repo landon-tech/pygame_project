@@ -1,0 +1,82 @@
+{
+  "tree": {
+    "name": "Tree",
+    "health": 10,
+    "drops": [
+      {"item": "wood", "quantity": 3},
+      {"itme": "sappling", "quantity": 1}
+    ],
+    "required_tool": "axe",
+    "frame_index": 0
+  },
+  "bush": {
+    "name": "Bush",
+    "health": 5,
+    "drops": [
+      {"item": "berry", "quantity": 2},
+      {"item": "stick", "quantity": 1}
+    ],
+    "required_tool": "any",
+    "frame_index": 1
+  },
+  "coal_ore_deposit": {
+    "name": "Coal Ore Deposit",
+    "health": 15,
+    "drops": [
+      {"item": "coal_ore", "quantity": 2},
+      {"item": "stone", "quantity": 4}
+    ],
+    "required_tool": "pickaxe",
+    "frame_index": 2
+  },
+  "iron_ore_deposit": {
+    "name": "Iron Ore Deposit",
+    "health": 15,
+    "drops": [
+      {"item": "iron_ore", "quantity": 2},
+      {"item": "stone", "quantity": 4}
+    ],
+    "required_tool": "pickaxe",
+    "frame_index": 3
+  },
+  "copper_ore_deposit": {
+    "name": "Copper Ore Deposit",
+    "health": 15,
+    "drops": [
+      {"item": "copper_ore", "quantity": 2},
+      {"item": "stone", "quantity": 4}
+    ],
+    "required_tool": "pickaxe",
+    "frame_index": 4
+  },
+  "gold_ore_deposit": {
+    "name": "Silver Ore Deposit",
+    "health": 15,
+    "drops": [
+      {"item": "gold_ore", "quantity": 2},
+      {"item": "stone", "quantity": 4}
+    ],
+    "required_tool": "iron_pickaxe",
+    "frame_index": 5
+  },
+  "silver_ore_deposit": {
+    "name": "Silver Ore Deposit",
+    "health": 15,
+    "drops": [
+      {"item": "gold_ore", "quantity": 2},
+      {"item": "stone", "quantity": 4}
+    ],
+    "required_tool": "iron_pickaxe",
+    "frame_index": 6
+  },
+  "oil_vein": {
+    "name": "Oil_vein",
+    "health": 15,
+    "drops": [
+      {"item": "gold_ore", "quantity": 2},
+      {"item": "stone", "quantity": 4}
+    ],
+    "required_tool": "pickaxe",
+    "frame_index": 7
+  }
+}

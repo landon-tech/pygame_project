@@ -3,7 +3,7 @@ import os
 from spritesheet import Sprite_Sheet
 from dropped_items import Dropped_Item
 from groups import *
-from surfaces import create_surface_png
+#from surfaces import create_surface_png
 import json
 
 with open(os.path.join("Data","crafting_recipies.json"), "r") as file:
@@ -44,3 +44,4 @@ def load_spritesheets(folder_path):
         except pygame.error as e:
             print(f"Error loading sprite sheet {filename}: {e}" )
     return spritesheets
+

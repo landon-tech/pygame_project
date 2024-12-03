@@ -9,7 +9,7 @@ class Sprite_Sheet():
         self.rows = self.sheet.get_height() // self.frame_height
 
 
-    def get_item_image(self, frame_index):
+    def get_image(self, frame_index):
         # Calculate total frames in the spritesheet
         total_frames = self.columns * self.rows
         # Ensure the frame index is within range

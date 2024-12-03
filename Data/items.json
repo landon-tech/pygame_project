@@ -46,11 +46,273 @@
       "color": [110, 73, 33],
       "effect": "",
       "usage": "crafting"
+    },
+    "stone_pickaxe": {
+      "name": "Stone Pickaxe",
+      "type": "tool",
+      "frame_index": 2,
+      "category": "primitive",
+      "color": [120, 110, 90],
+      "effect": "mining",
+      "usage": "gathering",
+      "durability": 50,
+      "damage": 3
+    },
+    "stone_axe": {
+      "name": "Stone Axe",
+      "type": "tool",
+      "frame_index": 3,
+      "category": "primitive",
+      "color": [130, 115, 95],
+      "effect": "chopping",
+      "usage": "gathering",
+      "durability": 50,
+      "damage": 7
+    },
+    "stone_spear": {
+      "name": "Stone Spear",
+      "type": "weapon",
+      "frame_index": 4,
+      "category": "primitive",
+      "color": [110, 100, 85],
+      "effect": "piercing",
+      "usage": "combat",
+      "durability": 35,
+      "damage": 9
+    },
+    "wooden_shield": {
+      "name": "Wooden Shield",
+      "type": "armor",
+      "frame_index": 5,
+      "category": "primitive",
+      "color": [150, 100, 50],
+      "effect": "block",
+      "usage": "defense",
+      "durability": 75,
+      "protection": 10
+    },
+    "leather_armor": {
+      "name": "Leather Armor",
+      "type": "armor",
+      "frame_index": 6,
+      "category": "primitive",
+      "color": [139, 69, 19],
+      "effect": "protection",
+      "usage": "defense",
+      "durability": 30,
+      "protection": 5
+    },
+    "bone_knife": {
+      "name": "Bone Knife",
+      "type": "weapon",
+      "frame_index": 7,
+      "category": "primitive",
+      "color": [200, 200, 170],
+      "effect": "sharp",
+      "usage": "combat",
+      "durability": 15,
+      "damage": 12
+    },
+    "clay_bricks": {
+      "name": "Clay Bricks",
+      "type": "resource",
+      "frame_index": 8,
+      "category": "primitive",
+      "color": [178, 34, 34],
+      "effect": "",
+      "usage": "building"
+    },
+    "flint": {
+      "name": "Flint",
+      "type": "resource",
+      "frame_index": 9,
+      "category": "primitive",
+      "color": [105, 105, 105],
+      "effect": "spark",
+      "usage": "crafting/fire starting"
+    },
+    "rope": {
+      "name": "Rope",
+      "type": "resource",
+      "frame_index": 10,
+      "category": "primitive",
+      "color": [184, 134, 11],
+      "effect": "",
+      "usage": "crafting"
+    },
+    "primitive_bow": {
+      "name": "Primitive Bow",
+      "type": "weapon",
+      "frame_index": 11,
+      "category": "primitive",
+      "color": [139, 69, 19],
+      "effect": "ranged",
+      "usage": "combat",
+      "durability": 40
+    },
+    "arrows": {
+      "name": "Arrows",
+      "type": "ammunition",
+      "frame_index": 12,
+      "category": "primitive",
+      "color": [160, 82, 45],
+      "effect": "piercing",
+      "usage": "combat",
+      "damage": 9
+    },
+    "crude_oil_lamp": {
+      "name": "Crude Oil Lamp",
+      "type": "tool",
+      "frame_index": 13,
+      "category": "primitive",
+      "color": [255, 223, 0],
+      "effect": "light",
+      "usage": "illumination"
+    },
+    "charcoal": {
+      "name": "Charcoal",
+      "type": "resource",
+      "frame_index": 14,
+      "category": "primitive",
+      "color": [54, 47, 45],
+      "effect": "fuels",
+      "usage": "crafting/fuel"
+    },
+    "clay_pot": {
+      "name": "Clay Pot",
+      "type": "tool",
+      "frame_index": 15,
+      "category": "primitive",
+      "color": [150, 75, 0],
+      "effect": "",
+      "usage": "cooking/storage"
     }
   },
+  "advanced": {
+    "steel_ingot": {
+      "name": "Steel Ingot",
+      "type": "resource",
+      "frame_index": 0,
+      "category": "advanced",
+      "color": [169, 169, 169],
+      "effect": "",
+      "usage": "crafting"
+    },
+    "iron_sword": {
+      "name": "Iron Sword",
+      "type": "weapon",
+      "frame_index": 1,
+      "category": "advanced",
+      "color": [160, 160, 160],
+      "effect": "basic attack",
+      "usage": "combat"
+    },
+    "steel_axe": {
+      "name": "Steel Axe",
+      "type": "tool",
+      "frame_index": 2,
+      "category": "advanced",
+      "color": [150, 150, 150],
+      "effect": "chopping",
+      "usage": "woodcutting",
+      "durability": 250,
+      "damage": 50
+    },
+    "copper_pickaxe": {
+      "name": "Copper Pickaxe",
+      "type": "tool",
+      "frame_index": 3,
+      "category": "advanced",
+      "color": [184, 115, 51],
+      "effect": "mining",
+      "usage": "resource extraction",
+      "durability": 200,
+      "damage": 15
+    },
+    "bronze_armor": {
+      "name": "Bronze Armor",
+      "type": "armor",
+      "frame_index": 4,
+      "category": "advanced",
+      "color": [205, 127, 50],
+      "effect": "damage reduction",
+      "usage": "defense",
+      "durability": 300,
+      "protection": 30
+
+    },
+    "metal_shield": {
+      "name": "Metal Shield",
+      "type": "armor",
+      "frame_index": 5,
+      "category": "advanced",
+      "color": [192, 192, 192],
+      "effect": "block damage",
+      "usage": "defense",
+      "durability": 250,
+      "protection":75
+    },
+    "iron_nails": {
+      "name": "Iron Nails",
+      "type": "resource",
+      "frame_index": 6,
+      "category": "advanced",
+      "color": [105, 105, 105],
+      "effect": "",
+      "usage": "crafting/ammo"
+    },
+    "metal_gears": {
+      "name": "Metal Gears",
+      "type": "component",
+      "frame_index": 7,
+      "category": "advanced",
+      "color": [140, 140, 140],
+      "effect": "",
+      "usage": "crafting/machinery"
+    },
+    "copper_wire": {
+      "name": "Copper Wire",
+      "type": "component",
+      "frame_index": 8,
+      "category": "advanced",
+      "color": [184, 115, 51],
+      "effect": "",
+      "usage": "electrical crafting"
+    },
+    "steel_hammer": {
+      "name": "Steel Hammer",
+      "type": "tool",
+      "frame_index": 9,
+      "category": "advanced",
+      "color": [128, 128, 128],
+      "effect": "construction",
+      "usage": "crafting/building",
+      "durability": 300,
+      "damage": 40
+    },
+    "reinforced_plating": {
+      "name": "Reinforced Plating",
+      "type": "component",
+      "frame_index": 10,
+      "category": "advanced",
+      "color": [112, 128, 144],
+      "effect": "enhanced durability",
+      "usage": "armor/machine crafting"
+    },
+    "advanced_forge": {
+      "name": "Advance Forge",
+      "type": "machine",
+      "frame_index": 11,
+      "category": "advanced",
+      "color": [169, 169, 169],
+      "effect": "smelting efficiency",
+      "usage": "smelting/crafting"
+    }
+  },
+
   "metal":{
-    "iron": {
-      "name": "Iron",
+    "iron_ore": {
+      "name": "Iron Ore",
       "type": "resource",
       "frame_index": 0,
       "category": "metal",
@@ -58,29 +320,64 @@
       "effect": "",
       "usage": "crafting"
     },
-
-    "copper":{
-      "name": "Copper",
+    "iron": {
+      "name": "Iron",
       "type": "resource",
       "frame_index": 1,
+      "category": "metal",
+      "color": [184, 193, 207],
+      "effect": "",
+      "usage": "crafting"
+    },
+    "copper_ore":{
+      "name": "Copper Ore",
+      "type": "resource",
+      "frame_index": 2,
       "category": "metal",
       "color": [184, 115, 51],
       "effect": "",
       "usage": "crafting"
     },
-    "gold": {
-      "name": "Gold",
+    "copper":{
+      "name": "Copper",
       "type": "resource",
-      "frame_index": 2,
+      "frame_index": 3,
+      "category": "metal",
+      "color": [184, 115, 51],
+      "effect": "",
+      "usage": "crafting"
+    },
+    "gold_ore": {
+      "name": "Gold Ore",
+      "type": "resource",
+      "frame_index": 4,
       "category": "metal",
       "color": [255, 215, 0],
       "effect": "",
       "usage": "crafting"
     },  
+    "gold": {
+      "name": "Gold",
+      "type": "resource",
+      "frame_index": 5,
+      "category": "metal",
+      "color": [255, 215, 0],
+      "effect": "",
+      "usage": "crafting"
+    },  
+    "silver_ore": {
+      "name": "Silver Ore",
+      "type": "resource",
+      "frame_index": 8,
+      "category": "metal",
+      "color": [192, 192, 192],
+      "effect": "",
+      "usage": "crafting"
+    },
     "titanium": {
       "name": "Titanium",
       "type": "resource",
-      "frame_index": 3,
+      "frame_index": 10,
       "category": "metal",
       "color": [169, 169, 169],
       "effect": "",
@@ -115,14 +412,77 @@
       "effect": "",
       "usage": "crafting/fuel/magic"
     },
+    "lightning_shard": {
+      "name": "Lightning Shard",
+      "type": "resource",
+      "frame_index": 3,
+      "category": "elemental",
+      "color": [255, 255, 51],
+      "effect": "electrifies",
+      "usage": "magic/fuel"
+    },
     "mystic_orb": {
       "name": "Mystic Orb",
       "type": "resource",
-      "frame_index": 3,
+      "frame_index": 4,
       "category": "elemental",
       "color": [138, 43, 226],
       "effect": "",
       "usage": "crafting/magic"
+    },  
+    "earth_crystal": {
+      "name": "Earth Crystal",
+      "type": "resource",
+      "frame_index": 5,
+      "category": "elemental",
+      "color": [139, 115, 85],
+      "effect": "boosts defense",
+      "usage": "crafting/magic/defensive spells"
+    },
+    "wind_essence": {
+      "name": "Wind Essence",
+      "type": "resource",
+      "frame_index": 6,
+      "category": "elemental",
+      "color": [173, 216, 230],
+      "effect": "speed boost",
+      "usage": "crafting/utility magic"
+    },
+    "lightning_core": {
+      "name": "Lightning Core",
+      "type": "resource",
+      "frame_index": 7,
+      "category": "elemental",
+      "color": [255, 255, 100],
+      "effect": "stun enemies",
+      "usage": "crafting/offensive magic"
+    },
+    "dark_matter_shard": {
+      "name": "Dark Matter Shard",
+      "type": "resource",
+      "frame_index": 8,
+      "category": "elemental",
+      "color": [70, 0, 130],
+      "effect": "invisibility",
+      "usage": "crafting/magic/invisibility"
+    },
+    "lunar_fragment": {
+      "name": "Lunar Fragment",
+      "type": "resource",
+      "frame_index": 9,
+      "category": "elemental",
+      "color": [245, 245, 245],
+      "effect": "boosts magic potency at night",
+      "usage": "crafting/magic/advanced spells"
+    },
+    "solar_core": {
+      "name": "Solar Core",
+      "type": "resource",
+      "frame_index": 10,
+      "category": "elemental",
+      "color": [255, 140, 0],
+      "effect": "ignites enemies",
+      "usage": "crafting/magic/fire-based spells"
     }
   },
   "electrical":{
@@ -141,10 +501,119 @@
       "frame_index": 1,
       "category": "electrical",
       "color": [50, 205, 50],
-      "effect": "fuels",
+      "effect": "stores charge",
+      "usage": "fuel/crafting",
+      "max charge": 25
+    },
+    "circuit_board": {
+      "name": "Circuit Board",
+      "type": "resource",
+      "frame_index": 2,
+      "category": "electrical",
+      "color": [34, 139, 34],
+      "effect": "component",
+      "usage": "crafting"
+    },
+    "capacitor": {
+      "name": "Capacitor",
+      "type": "resource",
+      "frame_index": 3,
+      "category": "electrical",
+      "color": [128, 128, 128],
+      "effect": "stores charge",
+      "usage": "crafting",
+      "charge": 100
+    },
+    "resistor": {
+      "name": "Resistor",
+      "type": "resource",
+      "frame_index": 4,
+      "category": "electrical",
+      "color": [255, 165, 0],
+      "effect": "reduces current",
+      "usage": "crafting"
+    },
+    "transistor": {
+      "name": "Transistor",
+      "type": "resource",
+      "frame_index": 5,
+      "category": "electrical",
+      "color": [169, 169, 169],
+      "effect": "amplifies signals",
+      "usage": "crafting"
+    },
+    "microchip": {
+      "name": "Microchip",
+      "type": "resource",
+      "frame_index": 6,
+      "category": "electrical",
+      "color": [70, 130, 180],
+      "effect": "advanced logic",
+      "usage": "crafting"
+    },
+    "battery_pack": {
+      "name": "Battery Pack",
+      "type": "resource",
+      "frame_index": 7,
+      "category": "electrical",
+      "color": [255, 223, 0],
+      "effect": "stores energy",
       "usage": "fuel/crafting"
+    },
+    "solar_panel": {
+      "name": "Solar Panel",
+      "type": "resource",
+      "frame_index": 8,
+      "category": "electrical",
+      "color": [30, 144, 255],
+      "effect": "generates power",
+      "usage": "crafting"
+    },
+    "fusion_core": {
+      "name": "Fusion Core",
+      "type": "resource",
+      "frame_index": 9,
+      "category": "electrical",
+      "color": [255, 69, 0],
+      "effect": "high energy source",
+      "usage": "fuel/crafting"
+    },
+    "quantum_processor": {
+      "name": "Quantum Processor",
+      "type": "resource",
+      "frame_index": 10,
+      "category": "electrical",
+      "color": [186, 85, 211],
+      "effect": "advanced computing",
+      "usage": "crafting"
+    },
+    "neural_interface": {
+      "name": "Neural Interface",
+      "type": "resource",
+      "frame_index": 11,
+      "category": "electrical",
+      "color": [147, 112, 219],
+      "effect": "mind-machine link",
+      "usage": "crafting"
+    },
+    "holographic_emitter": {
+      "name": "Holographic Emitter",
+      "type": "resource",
+      "frame_index": 12,
+      "category": "electrical",
+      "color": [0, 191, 255],
+      "effect": "projects images",
+      "usage": "crafting"
+    },
+    "plasma_core": {
+      "name": "Plasma Core",
+      "type": "resource",
+      "frame_index": 13,
+      "category": "electrical",
+      "color": [255, 0, 0],
+      "effect": "weaponized energy",
+      "usage": "crafting"
     }
-
   },
   "medicine":{
     "adrenaline_shot": {
@@ -159,14 +628,88 @@
     "bandages": {
       "name": "Bandages",
       "type": "resource",
+      "frame_index": 1,
       "category": "medicine",
       "color": [20, 220, 60],
       "effect": "heal",
       "usage": "consumable"
+    },
+    "herbal_extract": {
+      "name": "Herbal Extract",
+      "type": "resource",
+      "frame_index": 2,
+      "category": "medicine",
+      "color": [85, 107, 47],
+      "effect": "minor healing over time",
+      "usage": "consumable/crafting"
+    },
+    "energy_drink": {
+      "name": "Energy Drink",
+      "type": "resource",
+      "frame_index": 3,
+      "category": "medicine",
+      "color": [30, 144, 255],
+      "effect": "stamina recovery boost",
+      "usage": "consumable"
+    },
+    "antidote": {
+      "name": "Antidote",
+      "type": "resource",
+      "frame_index": 4,
+      "category": "medicine",
+      "color": [0, 255, 127],
+      "effect": "cures poison",
+      "usage": "consumable"
+    },
+    "medicinal_herb": {
+      "name": "Medicinal Herb",
+      "type": "resource",
+      "frame_index": 5,
+      "category": "medicine",
+      "color": [50, 205, 50],
+      "effect": "small healing effect",
+      "usage": "crafting/basic healing item",
+      "heals": 15
+    },
+    "strength_elixir": {
+      "name": "Strength Elixir",
+      "type": "resource",
+      "frame_index": 6,
+      "category": "medicine",
+      "color": [255, 99, 71],
+      "effect": "temporary strength boost",
+      "usage": "consumable"
+    },
+    "mana_potion": {
+      "name": "Mana Potion",
+      "type": "resource",
+      "frame_index": 7,
+      "category": "medicine",
+      "color": [0, 191, 255],
+      "effect": "restores magic energy",
+      "usage": "consumable"
+    },
+    "revival_herb": {
+      "name": "Revival Herb",
+      "type": "resource",
+      "frame_index": 8,
+      "category": "medicine",
+      "color": [238, 130, 238],
+      "effect": "revives player",
+      "usage": "consumable/rare item"
+    },
+    "painkiller": {
+      "name": "Painkiller",
+      "type": "resource",
+      "frame_index": 9,
+      "category": "medicine",
+      "color": [139, 69, 19],
+      "effect": "reduces damage taken temporarily",
+      "usage": "consumable"
     }
   },
   "food":{
-    "apple": {
+    "apple": { 
       "name": "apple",
       "type": "resource",
       "frame_index": 0,
@@ -285,6 +828,15 @@
     },
     "flour":{
       "name": "flour",
+      "type": "resource",
+      "frame_index": 15,
+      "category": "natural",
+      "color": [33, 110, 255],
+      "effect": "nourish",
+      "usage": "consumable/crafting/farming"
+    },
+    "berry":{
+      "name": "berry",
       "type": "resource",
       "frame_index": 15,
       "category": "natural",
