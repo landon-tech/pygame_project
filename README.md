@@ -2,4 +2,4 @@
 ## Game Description
 ### Landon
 
-To run run the main.py file
+To run run the main.py file!
